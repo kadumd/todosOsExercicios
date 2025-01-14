@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    opacity: 0.8;
+    position: fixed;
+}
+
+header:hover{
+    opacity: 1;
+}
+
+a {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+}
+
+main{
+    height: 1000px;
+    width: 100%;
+}
