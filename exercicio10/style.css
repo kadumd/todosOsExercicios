@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 200px;
+    border: solid black 1px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+}
+
+a{
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+#ataque{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 3px 2px aqua;
+    box-shadow: 0px 0px 10px aqua;
+}
+
+#defesa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 3px 2px aqua;
+    box-shadow: 0px 0px 10px aqua;
+}
+
+#suporte{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 2px 3px 2px aqua;
+    box-shadow: 0px 0px 10px aqua;
+}
+
+#icone-ataque{
+    height: 30px;
+    width: 30px;
+    background-image: url('https://d2nlrppnj7be8d.cloudfront.net/materials/0002/3203/icon_thumb.png');
+}
+
+#icone-defesa{
+    height: 30px;
+    width: 30px;
+    background-image: url('https://th.bing.com/th/id/OIP.nTCDmMkiMReBAQstxgY5rQAAAA?rs=1&pid=ImgDetMain');
+}
+
+#icone-suporte{
+    height: 30px;
+    width: 30px;
+    background-image: url('https://rpg-medieval.weebly.com/uploads/5/3/6/1/5361710/6383685.gif');
+}
+
+#ataque:hover{
+    #icone-ataque {
+        background-image: url('https://www.tibiaitens.com.br/image/cache/catalog/espadas/giant-swordtibia-599-32x32.gif');
+    }
+}
+
+#defesa:hover{
+    #icone-defesa {
+        background-image: url('https://th.bing.com/th/id/OIP.rP6sRgOtYkAjmQhNB2jWZAAAAA?rs=1&pid=ImgDetMain');
+    }
+}
+
+#suporte:hover{
+    #icone-suporte {
+        background-image: url('https://th.bing.com/th/id/OIP.S8m9HT8GO10wcLDbU2kAnAAAAA?rs=1&pid=ImgDetMain');
+    }
+}
+
+body:has(#ataque:hover){
+    #profissoes-de-ataque{
+        display: flex;
+    }
+}
+
+body:has(#defesa:hover){
+    #profissoes-de-defesa{
+        display: flex;
+    }
+}
+
+body:has(#suporte:hover){
+    #profissoes-de-suporte{
+        display: flex;
+    }
+}
+
+#flecha-para-a-direita{
+    height: 30px;
+    width: 30px;
+}
+
+body:has(#flecha-para-a-direita:hover){
+    header{
+        display: flex;
+    }
+}
+
+header:hover{
+    display: flex;
+}
+
+/* #profissoes{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    width: 200px;
+    border: solid black 1px;
+} */
+
+#profissoes-de-ataque{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 150px;
+    border: solid black 1px;
+}
+
+#profissoes-de-defesa{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 150px;
+    border: solid black 1px;
+}
+
+#profissoes-de-suporte{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+    width: 150px;
+    border: solid black 1px;
+}
+
+
+/* não sei pq de vez em quando não funciona, mas o certo era pra isso está funcionando */
+
+body:has(#ataque:active){
+    #profissoes-de-ataque{
+        display: flex;
+    }
+}
+
+body:has(#defesa:active){
+    #profissoes-de-defesa{
+        display: flex;
+    }
+}
+
+body:has(#suporte:active){
+    #profissoes-de-suporte{
+        display: flex;
+    }
+}
+
+
+
+@media screen and (max-width: 768px) {
+    body{
+        flex-direction: column;
+    }
+
+    #flecha-para-a-direita{
+        display: none;
+    }
+
+    header{
+        display: flex;
+        width: 100%;
+        height: 100px;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: row;
+    }
+}
