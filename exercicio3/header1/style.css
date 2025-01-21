@@ -9,24 +9,24 @@ body {
     width: 100vw;
 }
 
-#header1 {
+header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 2rem;
-    background-color: red;
+    background-color: black;
 }
 
 #extremaDireita {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 50px;
 }
 
 a {
     font-size: 30px;
-    color: black;
+    color: white;
     text-decoration: none;
     transition: 0.4s;
 }
@@ -47,22 +47,11 @@ a {
 }
 
 #aboutus1:hover {
-    color: white;
-    background-color: black;
-}
-
-/* segundo header */
-#header2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 2rem;
-    height: 100px;
-    width: 100%;
+    color: green;
     background-color: blue;
 }
 
-#logo2 {
-    height: 50px;
-    width: 50px;
+#barraDePesquisa1{
+    height: 20px;
+    width: 600px;
 }

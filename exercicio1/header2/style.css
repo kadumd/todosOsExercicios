@@ -9,28 +9,18 @@ body{
     width: 100vw;
 }
 
-#header1{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    /* justify-content: space-between; */
-    height: 100px;
-    width: 100%;
-    background-color: red;
-}
-
-#header2{
+header{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2rem;
     height: 100px;
     width: 100%;
-    background-color: blue;
+    background-color: black;
 }
 
 a{
     font-size: 30px;
-    color: black;
+    color: white;
     text-decoration: none;
 }

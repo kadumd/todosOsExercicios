@@ -9,14 +9,6 @@ body {
     width: 100vw;
 }
 
-#header1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: red;
-}
-
 a {
     display: flex;
     align-items: center;
@@ -27,59 +19,12 @@ a {
     transition: 0.4s;
 }
 
-#home2 {
-    height: 30px;
-    width: 30px;
-}
-
-#products2 {
-    height: 30px;
-    width: 30px;
-}
-
-#aboutUs2 {
-    height: 30px;
-    width: 30px;
-}
-
-#logo1 {
-    height: 50px;
-    width: 50px;
-}
-
-#home1:hover {
-    background-color: yellow;
-    color: blue;
-    #home2 {
-        height: 50px;
-        width: 50px;
-    }
-}
-
-#products1:hover {
-    background-color: yellow;
-    color: blue;
-    #products2 {
-        height: 50px;
-        width: 50px;
-    }
-}
-
-#aboutUs1:hover {
-    background-color: yellow;
-    color: blue;
-    #aboutUs2 {
-        height: 50px;
-        width: 50px;
-    }
-}
-
-/* header2 */
 ul{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 #header2 {
     display: flex;
     justify-content: space-between;

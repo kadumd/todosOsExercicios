@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+a {
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 2rem;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+}
+
+#logo {
+    height: 50px;
+    width: 50px;
+}
+
+#barraDePesquisa{
+    height: 20px;
+    width: 500px;
+}

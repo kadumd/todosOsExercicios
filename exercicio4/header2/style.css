@@ -9,15 +9,6 @@ body {
     width: 100vw;
 }
 
-#header1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: red;
-    background: -webkit-linear-gradient(red, orange, yellow)
-}
-
 #extremaDireita {
     display: flex;
     align-items: center;
@@ -31,23 +22,7 @@ a {
     transition: 0.4s;
 }
 
-#logo1 {
-    height: 50px;
-    width: 50px;
-}
-
-#login1{
-    height: 30px;
-    width: 100px;
-}
-
-#login1:active {
-    color: red;
-    background-color: aqua;
-}
-
-/* segundo header */
-#header2 {
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -57,23 +32,23 @@ a {
     background-color: black;
 }
 
-#header2:hover{
+header:hover{
     background-color: white;
-    .a2{
+    .a{
         color: black;
     }
 }
 
-#logo2 {
+#logo {
     height: 50px;
     width: 50px;
 }
 
-#login2{
+#login{
     height: 30px;
     width: 100px;
 }
 
-.a2{
+.a{
     color: white;
 }
